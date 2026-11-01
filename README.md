@@ -91,11 +91,5 @@ See [Verification & limitations](docs/VERIFICATION.md).
 
 > The uploaded `.pbix` was preserved byte-for-byte from the user's final submission. Its ZIP components, three report pages and essential visual bindings passed static inspection. Opening, rendering and refresh in Power BI Desktop must be checked in Power BI Desktop; they cannot be guaranteed by static inspection alone.
 
-## Documentation
 
-- [Methodology and measures](docs/METHODOLOGY.md)
-- [Main findings and calculations](docs/FINDINGS.md)
-- [Verification, caveats and limitations](docs/VERIFICATION.md)
-- [Interview talking points](docs/INTERVIEW_NOTES.md)
 
-**Project status:** Three analytical report pages completed. No fourth/“Thank You” page is claimed or included.
