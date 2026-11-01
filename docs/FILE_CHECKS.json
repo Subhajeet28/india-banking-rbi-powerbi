@@ -1,0 +1,84 @@
+{
+  "checked_utc": "2026-11-01T14:38:01.083241+00:00",
+  "pbix_uploaded_name": "India_Banking_Credit_Analysis(1).pbix",
+  "pbix_sha256": "38f1647af4ffeac551a626d62db1eef859bfdf412a6d91c6ff6f0bb89af7caaa",
+  "pbix_size_bytes": 1003128,
+  "zip_integrity": "passed",
+  "pages": [
+    "Banking Overview",
+    "State-wise Comparison",
+    "Sectoral Lending Analysis"
+  ],
+  "visual_types_per_page": {
+    "Banking Overview": {
+      "cardVisual": 1,
+      "lineChart": 2,
+      "slicer": 1
+    },
+    "State-wise Comparison": {
+      "textbox": 2,
+      "scatterChart": 1,
+      "tableEx": 1,
+      "slicer": 1,
+      "shape": 1,
+      "clusteredBarChart": 2
+    },
+    "Sectoral Lending Analysis": {
+      "cardVisual": 1,
+      "lineChart": 1,
+      "slicer": 1,
+      "clusteredBarChart": 2,
+      "pieChart": 1
+    }
+  },
+  "topn_definitions": [
+    {
+      "page": "State-wise Comparison",
+      "N": 10,
+      "ranking_measure": "Total Deposits (₹ Cr)"
+    },
+    {
+      "page": "State-wise Comparison",
+      "N": 10,
+      "ranking_measure": "Total Credit (₹ Cr)"
+    },
+    {
+      "page": "Sectoral Lending Analysis",
+      "N": 10,
+      "ranking_measure": "Industrial Credit (₹ L Cr)"
+    },
+    {
+      "page": "Sectoral Lending Analysis",
+      "N": 10,
+      "ranking_measure": "Agricultural Credit (₹ L Cr)"
+    }
+  ],
+  "screenshots": {
+    "01_banking_overview.png": {
+      "sha256": "6ad3623bb0f488918f1d624c067a214276c3b034f305c22cc66b9fbe3cfce916",
+      "size_pixels": [
+        1702,
+        793
+      ]
+    },
+    "02_state_comparison.png": {
+      "sha256": "d109c5b70850e1646cd2cf52c5b3f634be4d89c54c962dda0e31e92d3e18f2c5",
+      "size_pixels": [
+        1720,
+        799
+      ]
+    },
+    "03_sectoral_lending.png": {
+      "sha256": "f3cbccc5b92a8df5e46f96e8c1159254ea130a6448a47c83a0b4e2946abab387",
+      "size_pixels": [
+        1707,
+        787
+      ]
+    }
+  },
+  "limits": [
+    "Power BI Desktop opening not independently tested",
+    "source Excel workbooks not supplied for row-by-row audit",
+    "exact DAX/M code in compressed model not audited"
+  ]
+}
